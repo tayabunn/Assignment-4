@@ -31,11 +31,11 @@ Answers to Questions
   When an event is triggered on a child element, it bubbles up to its parent elements (this is called Event Bubbling).
   The parent element listens for that event and can act on it, using information from the event like which child element was clicked.
 
-Why is it useful:
-1) it is efficient enough educes memory usage, especially when we have many elements.
-2) It makes our code cleaner and more maintainable.
-3) It is especially useful when you're dynamically generating elements
-4) It is flexible for complex scenarios. We can easily check the target of the event and handle it accordingly.
+ Why is it useful:
+ 1) it is efficient enough educes memory usage, especially when we have many elements.
+ 2) It makes our code cleaner and more maintainable.
+ 3) It is especially useful when you're dynamically generating elements
+ 4) It is flexible for complex scenarios. We can easily check the target of the event and handle it accordingly.
 
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
