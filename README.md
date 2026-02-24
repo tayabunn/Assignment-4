@@ -1,7 +1,7 @@
 Answers to Questions
 1. What is the difference between getElementById, getElementsByClassName, and querySelector / querySelectorAll?
 
-Answer: getElementById, getElementsByClassName, and querySelector / querySelectorAll are all used to select elements in the DOM usine JavaScript. But there's littl ediference betwen them. They are:
+  Answer: getElementById, getElementsByClassName, and querySelector / querySelectorAll are all used to select elements in the DOM usine JavaScript. But there's littl ediference betwen them. They are:
   1) By using getElementById, we can access a single element with a unique ID. It works first for IDs. It returns 1 element.
   2) By using getElementsByClassName, we can select elements by class name.It returns a live HTMLCollection adnd returns multiple elements.
   3) By using querySelector, we can select single element using a complex CSS selector such as .class, #id, or any valid CSS selector. It is flexible enough to selects the first element that matches a CSS selector. It returns 1 element.
@@ -10,17 +10,17 @@ Answer: getElementById, getElementsByClassName, and querySelector / querySelecto
 
 2. How do you create and insert a new element into the DOM?
 
-Answer: First we need to create a new HTML element by using- document.createElement(). Then use setAttribute(), textContent, or innerHTML to add attributes or content to the new element. After that, use appendChild(), insertBefore(), or similar methods to insert the new element into an existing element in the DOM.
+  Answer: First we need to create a new HTML element by using- document.createElement(). Then use setAttribute(), textContent, or innerHTML to add attributes or content to the new element. After that, use appendChild(), insertBefore(), or similar methods to insert the new element into an existing element in the DOM.
 
 
 3. What is Event Bubbling? And how does it work?
 
-Answer: Basically when you click on a button the event goes from the clicked item up to its parent. you can use bubbling to handle event for many elements by listening on a parent insted of every single elements.
+  Answer: Basically when you click on a button the event goes from the clicked item up to its parent. you can use bubbling to handle event for many elements by listening on a parent insted of every single elements.
 
-How it work:
-1) First, the event is fired on the most specific target element (child).
-2) The event "bubbles up" from the target element to the root of the document.
-3) Event listeners attached to parent elements get triggered as the event bubbles up.
+  How it work:
+  1) First, the event is fired on the most specific target element (child).
+  2) The event "bubbles up" from the target element to the root of the document.
+  3) Event listeners attached to parent elements get triggered as the event bubbles up.
 
 
 4. What is Event Delegation in JavaScript? Why is it useful?
