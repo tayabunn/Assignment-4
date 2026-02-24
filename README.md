@@ -25,11 +25,11 @@ How it work:
 
 4. What is Event Delegation in JavaScript? Why is it useful?
 
-Answer: Event Delegation is a technique where we can add a single event listener to a parent element instead of attaching an event listener to every individual element like buttons, list items, etc. When an event occurs, the event bubbles up to the parent element, and you can handle the event on the parent by checking which child element was clicked., which it's called delegation. 
+  Answer: Event Delegation is a technique where we can add a single event listener to a parent element instead of attaching an event listener to every individual element like buttons, list items, etc. When an event occurs, the event bubbles up to the parent element, and you can handle the event on the parent by checking which child element was clicked., which it's called delegation. 
 
-How It Works:
-When an event is triggered on a child element, it bubbles up to its parent elements (this is called Event Bubbling).
-The parent element listens for that event and can act on it, using information from the event like which child element was clicked.
+  How It Works:
+  When an event is triggered on a child element, it bubbles up to its parent elements (this is called Event Bubbling).
+  The parent element listens for that event and can act on it, using information from the event like which child element was clicked.
 
 Why is it useful:
 1) it is efficient enough educes memory usage, especially when we have many elements.
@@ -40,11 +40,11 @@ Why is it useful:
 
 5. What is the difference between preventDefault() and stopPropagation() methods?
 
-Answer: The methods preventDefault() and stopPropagation() are both used to control event behavior in JavaScript, but they are bit diffenret from each other as they serve different purposes.
+  Answer: The methods preventDefault() and stopPropagation() are both used to control event behavior in JavaScript, but they are bit diffenret from each other as they serve different purposes.
 
-1. Using preventDefault() prevents the default behavior of an event from occurring. It is commonly used to prevent things like form submission, link navigation, or any other default action associated with an event.
+  1. Using preventDefault() prevents the default behavior of an event from occurring. It is commonly used to prevent things like form submission, link navigation, or any other default action associated with an event.
 
-2. Using stopPropagation() stops the event from propagating (bubbling up) to the parent elements in the DOM. It is used to stop an event from reaching other event listeners higher in the DOM (prevents event bubbling or capturing).
+  2. Using stopPropagation() stops the event from propagating (bubbling up) to the parent elements in the DOM. It is used to stop an event from reaching other event listeners higher in the DOM (prevents event bubbling or capturing).
 
 You can use both together if you want to prevent the default behavior and stop the event from bubbling up the DOM.
 
